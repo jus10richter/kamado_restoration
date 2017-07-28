@@ -13,5 +13,20 @@ body {
         background-color: lightblue;
         color: white;
         font-size: 2em;
-    }
+      }
+        section, aside {
+          float: left;
+        }
+
+        section {
+          width: 70%;
+        }
+
+        aside {
+          width: 30%;
+        }
+
+        img {
+          width: 100%;
+        }
 }
