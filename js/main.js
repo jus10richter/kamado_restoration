@@ -106,13 +106,17 @@ $(document).ready(function() {
     });
 
     $('.fade').slick({
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 900,
         fade: true,
         slide: 'div',
-        cssEase: 'linear'
-        
+        cssEase: 'linear',
+        touchThreshold: 9,
+        centerMode: true,
+        centerPadding: '100px'
+
+
     });
 
     $('.add-remove').slick({
