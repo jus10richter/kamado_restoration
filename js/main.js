@@ -114,8 +114,8 @@ $(document).ready(function() {
         cssEase: 'linear',
         touchThreshold: 9,
         centerMode: true,
-        centerPadding: '100px'
-
+        centerPadding: '100px',
+        adaptiveHeight: true
 
     });
 
