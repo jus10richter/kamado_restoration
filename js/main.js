@@ -108,10 +108,11 @@ $(document).ready(function() {
     $('.fade').slick({
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 900,
         fade: true,
         slide: 'div',
         cssEase: 'linear'
+        
     });
 
     $('.add-remove').slick({
